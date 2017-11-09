@@ -1,0 +1,107 @@
+This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.
+
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+:makeStart SKIPPED
+:runClient
+[18:25:54] [main/INFO] [GradleStart]: Extra: []
+[18:25:54] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/falsehonesty/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:25:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:25:54] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:25:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:25:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:25:54] [main/INFO] [FML]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
+[18:25:54] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Linux:amd64:4.13.10-100.fc25.x86_64, installed at /usr/local/java/jdk1.8.0_144/jre
+[18:25:54] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[18:25:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:25:54] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[18:25:54] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[18:25:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:25:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:25:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:25:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:25:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:25:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:25:54] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[18:25:55] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[18:25:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:25:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:25:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:25:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:25:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:25:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:25:56] [Client thread/INFO]: Setting user: Player690
+[18:26:01] [Client thread/INFO]: LWJGL Version: 2.9.4
+[18:26:01] [Client thread/INFO] [STDOUT]: [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 11/9/17 6:26 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Linux (amd64) version 4.13.10-100.fc25.x86_64
+	Java Version: 1.8.0_144, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 203737192 bytes (194 MB) / 549978112 bytes (524 MB) up to 2785017856 bytes (2656 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 17.0.5' Renderer: 'Mesa DRI Intel(R) Haswell Mobile '
+[18:26:01] [Client thread/INFO] [FML]: MinecraftForge v11.15.1.2318 Initialized
+[18:26:01] [Client thread/INFO] [FML]: Replaced 229 ore recipies
+[18:26:02] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[18:26:02] [Client thread/INFO] [FML]: Searching /home/falsehonesty/projects/guitesting/run/mods for mods
+[18:26:03] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[18:26:03] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, guitesting] at CLIENT
+[18:26:03] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, guitesting] at SERVER
+[18:26:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GuiTesting
+[18:26:04] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[18:26:04] [Client thread/INFO] [FML]: Found 384 ObjectHolder annotations
+[18:26:04] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:26:04] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:26:05] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:26:05] [Client thread/INFO] [FML]: Applying holder lookups
+[18:26:05] [Forge Version Check/INFO] [ForgeVersionCheck]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:26:05] [Client thread/INFO] [FML]: Holder lookups applied
+[18:26:05] [Client thread/INFO] [FML]: Injecting itemstacks
+[18:26:05] [Client thread/INFO] [FML]: Itemstack injection complete
+[18:26:05] [Client thread/INFO] [STDOUT]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[18:26:05] [Client thread/ERROR]: Couldn't initialize twitch stream
+[18:26:05] [Forge Version Check/INFO] [ForgeVersionCheck]: [Forge] Found status: AHEAD Target: null
+[18:26:05] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:26:05] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[18:26:05] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:26:06] [Thread-8/INFO]: OpenAL initialized.
+[18:26:06] [Sound Library Loader/INFO]: Sound engine started
+[18:26:08] [Client thread/INFO] [FML]: Max texture size: 16384
+[18:26:08] [Client thread/INFO]: Created: 16x16 textures-atlas
+[18:26:10] [Client thread/INFO] [FML]: Injecting itemstacks
+[18:26:10] [Client thread/INFO] [FML]: Itemstack injection complete
+[18:26:10] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[18:26:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GuiTesting
+[18:26:10] [Client thread/INFO]: SoundSystem shutting down...
+[18:26:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:26:10] [Sound Library Loader/INF
