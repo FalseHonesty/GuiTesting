@@ -9,8 +9,7 @@ import net.minecraft.util.EnumChatFormatting;
 public class LogoItem extends GuiItem {
     @Override
     public void drawItem(int mouseX, int mouseY) {
-        drawString(mc.fontRendererObj,
-                EnumChatFormatting.WHITE + "PODCRASH" + EnumChatFormatting.GOLD + "+",
+        fr.renderStringWithShadow(EnumChatFormatting.WHITE + "PODCRASH" + EnumChatFormatting.GOLD + "+",
                 5, 5, 0xFFFFFFFF);
     }
 

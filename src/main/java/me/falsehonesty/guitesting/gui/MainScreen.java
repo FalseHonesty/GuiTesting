@@ -1,6 +1,5 @@
 package me.falsehonesty.guitesting.gui;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.ScaledResolution;
 import org.lwjgl.input.Mouse;
@@ -19,6 +18,7 @@ public class MainScreen extends GuiScreen {
         items = new ArrayList<>();
         items.add(new LogoItem());
         items.add(new SettingsItem());
+        items.add(new MenuBarItem());
     }
 
     @Override

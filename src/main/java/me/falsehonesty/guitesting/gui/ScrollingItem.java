@@ -9,6 +9,7 @@ import org.lwjgl.input.Mouse;
 
 public abstract class ScrollingItem extends GuiItem {
     protected int scrolled;
+    protected int maxScroll = 100;
 
     public void handleMouseInput(int mouseX, int mouseY) {
         int i = Mouse.getEventDWheel();
@@ -19,12 +20,10 @@ public abstract class ScrollingItem extends GuiItem {
         i = GuiScreen.isShiftKeyDown() ? i * 10 : i * 20;
 
         this.scrolled -= i;
-        this.scrolled = clamp(this.scrolled, 0, 100);
+        this.scrolled = clamp(this.scrolled, 0, maxScroll);
     }
 
-
-
-    private int clamp(int toClamp, int min, int max) {
+    public static int clamp(int toClamp, int min, int max) {
         return toClamp < min ? min : toClamp > max ? max : toClamp;
     }
 }
